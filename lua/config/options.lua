@@ -37,3 +37,7 @@ vim.wo.relativenumber = true
 
 -- keep cursor kinda centered
 vim.opt.scrolloff = 10
+
+-- tabs
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
