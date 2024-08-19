@@ -8,12 +8,13 @@ return {
 		-- install required servers
 		require("mason").setup()
 		require("mason-lspconfig").setup({
-			ensure_installed = { "tsserver" }
+			ensure_installed = { "bashls", "tsserver" }
 		})
 
 		-- attach servers to neovim
 		local lspconfig = require("lspconfig")
 		lspconfig.tsserver.setup({})
+		lspconfig.bashls.setup({})
 
 		-- Global mappings.
 
