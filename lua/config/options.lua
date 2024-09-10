@@ -29,7 +29,6 @@ vim.o.colorcolumn = '80'
 
 -- Decrease update time
 vim.o.updatetime = 250
-vim.o.timeoutlen = 300
 
 -- Line numbers
 vim.wo.number = true
