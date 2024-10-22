@@ -42,4 +42,12 @@ vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 
 -- colors
-vim.opt.termguicolors = true
+vim.opt.termguicolors = true  
+
+-- list mode/command (show whitespaces)
+vim.opt.listchars = {
+	tab = '>-',
+	space = '␣',
+	trail = '~',
+	eol = '↵',
+}
